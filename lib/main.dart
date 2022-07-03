@@ -28,26 +28,27 @@ class Home extends StatelessWidget{
         
           // child: Image.asset('assets/splash.jpg'),
         
-        child: RaisedButton(
-          onPressed: (){},
-          child: Text('Click Me'),
-          color: Colors.amber,
-        ),
+        child:
+        // RaisedButton(
+        //   onPressed: (){},
+        //   child: Text('Click Me'),
+        //   color: Colors.amber,
+        // ),
         
-        // Text("Hello",
-        //   style: TextStyle(
-        //     fontSize: 20,
-        //     fontWeight: FontWeight.bold,
-        //     color: Colors.black,
-        //
-        //   ),
+        Text("Click Me",
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+
+          ),
 
 
         ),
-
+        ),
 
         floatingActionButton: FloatingActionButton(onPressed: () => {},
-          child: Text("Press"),
+          child: Text("On Press"),
           backgroundColor: Colors.amber,
 
         ),
